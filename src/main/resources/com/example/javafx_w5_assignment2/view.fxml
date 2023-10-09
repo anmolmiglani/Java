@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.Scene?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_w5_assignment2.MainController">
+    <TableView fx:id="tableView">
+        <columns>
+            <TableColumn text="ID" prefWidth="50" fx:id="idColumn"/>
+            <TableColumn text="Title" prefWidth="150" fx:id="titleColumn"/>
+            <TableColumn text="Genre" prefWidth="150" fx:id="genreColumn"/>
+            <TableColumn text="Release Year" prefWidth="100" fx:id="releaseYearColumn"/>
+            <TableColumn text="Sales (Millions)" prefWidth="120" fx:id="salesMillionsColumn"/>
+        </columns>
+    </TableView>
+</VBox>
